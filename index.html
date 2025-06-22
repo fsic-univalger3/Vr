@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0----">
+        <li class="text">الموقع والمدخل الرئيسي للكلية</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1----">
+        <li class="text">المدخل الرئيسي للطلبة والزوار</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2---1">
+        <li class="text">ساحة الكلية 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3---2">
+        <li class="text">ساحة الكلية 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4--">
+        <li class="text">مرأب الكلية</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5---">
+        <li class="text">الدخول إلى الكلية</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6--">
+        <li class="text">مكتب الإستقبال</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7----">
+        <li class="text">مدخل الى استديوهات الكلية</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8--">
+        <li class="text">استوديوهات الكلية</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9---">
+        <li class="text">قاعة تحرير الكلية</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10----1">
+        <li class="text">البهو الرئيسي للكلية 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11----2">
+        <li class="text">البهو الرئيسي للكلية 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12----">
+        <li class="text">الطابق الأرضي: القاعة الشرفية</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13----">
+        <li class="text">الطابق الأرضي: قاعة الأساتذة</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-----">
+        <li class="text">الطابق الأرضي: النوادي العلمية للكلية</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-----">
+        <li class="text">الطابق الأرضي: النوادي العلمية للكلية</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-------">
+        <li class="text">الطابق الأرضي: مدخل إلى مدرج نيلسون مانديلا</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-----">
+        <li class="text">الطابق الأول: مدرج نيلسون مانديلا</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18----">
+        <li class="text">الإنتقال إلى الطابق الأول</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19---">
+        <li class="text">بهو الطابق الأول</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20----">
+        <li class="text">الطابق الأول: بهو المدرجات</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-----">
+        <li class="text">الطابق الأول: مدرج زوهير احدادن</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22----">
+        <li class="text">الطابق الأول: مدرجات الكلية</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23----">
+        <li class="text">الطابق الأول: مدرجات الكلية</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24----">
+        <li class="text">الطابق الأول: مدرجات الكلية</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25----">
+        <li class="text">الطابق الأول: مصلى الكلية</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26----">
+        <li class="text">الإنتقال إلى الطابق الثاني</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27----">
+        <li class="text">الطابق الثاني: قاعات التدريس</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28----">
+        <li class="text">الولوج إلى الطابق الثالث</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29----">
+        <li class="text">الطابق الثالث: قاعات التدريس</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30----">
+        <li class="text">الإنتقال إلى الطابق الرابع</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31---">
+        <li class="text">بهو الطابق الرابع</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-----">
+        <li class="text">الطابق الرابع: قسم علوم الإتصال</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33------">
+        <li class="text">الطابق الرابع: مصالح قسم علوم الإتصال</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-----">
+        <li class="text">الطابق الرابع: قسم الميديا الرقمية</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-------">
+        <li class="text">الطابق الرابع: مصالح إدارة قسم الميديا الرقمية</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-----">
+        <li class="text">الطابق الرابع: إدارة ومصالح المكتبة</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37----">
+        <li class="text">الطابق الرابع: مكتبة الكلية</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38----">
+        <li class="text">الطابق الرابع: فضاء المكتبة</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-----">
+        <li class="text">الطابق الرابع: مصلحة البوابة البيداغوجية</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40------">
+        <li class="text">الطابق الخامس: مصالح الأمانة العامة للكلية</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41------">
+        <li class="text">الطابق الخامس: رئيس قسم علوم الإعلام</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42------">
+        <li class="text">الطابق الخامس: مصالح قسم علوم الإعلام</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43----">
+        <li class="text">الطابق الخامس: مصلحة الأرشيف</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="44-------">
+        <li class="text">الطابق الخامس: إدارة ومصالح نيابة العمادة للبيداغوجيا</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="45-----">
+        <li class="text">الطابق الخامس: مصلحة الشهادة المزدوجة</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="46-----">
+        <li class="text">الطابق الخامس: مصلحة الإعلام الألي</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="47-----">
+        <li class="text">الطابق الخامس: مجلس العلمي للكلية</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="48----">
+        <li class="text">الطابق الخامس: مخابر البحث</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="49-------">
+        <li class="text">الطابق-السادس: الولوج إلى الطابق السادس-</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="50----">
+        <li class="text">الطابق السادس: مكتب العمادة</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="51-----1--">
+        <li class="text">الطابق السادس: إدارة العمادة 1  </li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="52-----2">
+        <li class="text">الطابق السادس: إدارة العمادة 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="53----------">
+        <li class="text">الطابق السادس: إدارة نيابة العمادة لما بعد التدرج والبحث العلمي</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="54-----------">
+        <li class="text">الطابق-السادس: ادارة ومصالح نيابة عمادة الكلية للدرسات العليا والبحث العلمي</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="55----">
+        <li class="text">الطابق السادس: قاعة الاجتماعات</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
